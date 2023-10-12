@@ -1,0 +1,183 @@
+* {
+    transition: 0.5s;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+body {
+    background-color: black;
+}
+#header {
+    margin: 50px;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+#headdiv {
+    background-color: white;
+    height: 100px;
+    padding: 50px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+}
+
+#uz {
+    margin-left: 50px;
+    border-radius: 15px;
+}
+
+#best_sites {
+    margin: 50px;
+    margin-left: 200px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+#registration {
+    margin: 50px;
+    margin-left: 200px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+
+ul {
+    margin: 50px;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#input {
+    border-radius: 15px;
+    background-color: aqua;
+}
+
+#ntc {
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+}
+
+#qr {
+    border-radius: 10px;
+    margin: 50px;
+    margin-left: 190px;
+}
+
+form {
+    margin: 15px;
+}
+
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    transition: 0.5s;
+}
+
+.label:hover::after {
+    content: ' (обязательно)';
+}
+
+.label_notreq:hover::after {
+    content: ' (необязательно)';
+}
+
+.required {
+    background-color: black;
+    border: solid black 2px;
+    width: 300px;
+    height: 30px;
+    border-radius: 15px;
+    font-size: 17.5px;
+    margin-left: 15px;
+    color: white;
+    transition: 0.5s;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.required:focus {
+    background-color: white;
+    border: solid black 2px;
+    color: black;
+}
+
+#checkbox {
+    width: 20px;
+    height: 20px;
+}
+
+form {
+    background-color: white;
+    border-radius: 15px;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+#submit {
+    background-color: black;
+    border: solid black 2px;
+    width: 150px;
+    height: 40px;
+    border-radius: 15px;
+    margin: 10px;
+    margin-left: 100px;
+    transition: .5s;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 17.5px;
+    color: white;
+}
+
+#submit:hover {
+    background-color: white;
+    border: solid black 2px;
+    color: black  ;
+}
+
+#submit:active {
+    background-color: gray;
+    color: black;
+    border: solid 3px;
+    border-radius: 5px;
+}
+
+a {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+/* Вторая страница: */
+
+#div1 {
+    background-color: white;
+    border-radius: 15px;
+}
+
+#contact_list {
+    background-color: white;
+}
+
+.li {
+    color: black;
+    margin-top: 10px;
+}
